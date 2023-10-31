@@ -17,7 +17,7 @@ The dataset used in this project is from The World Health Organization (WHO)’s
 With the exception of the "Country" variable, all the other variables above were used to perform regression on the "Life Expectancy" variable.
 
 ### NN Architecture and Hyperparameters
-A simple Feedforward Neural Netwprl with one hidden layer (64 units and ReLu activation function) was used.
+A simple Feedforward Neural Network with one hidden layer (64 units and ReLu activation function) was used.
 
 Adam optimization was used with a learning_rate = 0.01, batch_size = 1, loss = mean_squarred_error, and epochs = 40.
 

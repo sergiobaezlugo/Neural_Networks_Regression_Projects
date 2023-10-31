@@ -4,7 +4,7 @@ This repository contains a few projects where Neural Networks were used to solve
 ## Life Expectancy Project
 
 ### Overview
-The dataset used in this project is from The World Health Organization (WHO)’s Global Health Observatory (GHO) data repository. It contained 22 columns and 2938 entries.
+The [dataset](https://github.com/sergiobaezlugo/Neural_Networks_Regression_Projects/blob/main/life_expectancy.csv) used in this project is from The World Health Organization (WHO)’s Global Health Observatory (GHO) data repository. It contained 22 columns and 2938 entries. 
 
 |index|Country|Year|Status|Adult Mortality|infant deaths|Alcohol|percentage expenditure|Hepatitis B|Measles | BMI |under-five deaths |Polio|Total expenditure|Diphtheria | HIV/AIDS|GDP|Population| thinness  1-19 years| thinness 5-9 years|Income composition of resources|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -20,6 +20,8 @@ With the exception of the "Country" variable, all the other variables above were
 A simple Feedforward Neural Network with one hidden layer (64 units and ReLu activation function) was used.
 
 Adam optimization was used with a learning_rate = 0.01, batch_size = 1, loss = mean_squarred_error, and epochs = 40.
+
+[Code](https://github.com/sergiobaezlugo/Neural_Networks_Regression_Projects/blob/main/life_expectancy.ipynb)
 
 ### Performance
 The model achieved a mean_squarred_error = 8.187067985534668 and mean_absolute_error = 2.0607926845550537 on the test data (random_seed = 23).

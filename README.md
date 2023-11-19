@@ -4,7 +4,7 @@ This repository contains a few projects where Neural Networks were used to solve
 ## Life Expectancy Project
 
 ### Overview
-The [dataset](https://github.com/sergiobaezlugo/Neural_Networks_Regression_Projects/blob/main/life_expectancy.csv) used in this project is from The World Health Organization (WHO)’s Global Health Observatory (GHO) data repository. It contained 22 columns and 2938 entries. 
+The [dataset](https://github.com/sergiobaezlugo/Neural_Networks_Regression_Projects/blob/main/life_expectancy.csv) used in this project is from The World Health Organization (WHO)’s Global Health Observatory (GHO) data repository. It contained 22 columns and 2938 entries. Here's a preview of such dataset:
 
 |index|Country|Year|Status|Adult Mortality|infant deaths|Alcohol|percentage expenditure|Hepatitis B|Measles | BMI |under-five deaths |Polio|Total expenditure|Diphtheria | HIV/AIDS|GDP|Population| thinness  1-19 years| thinness 5-9 years|Income composition of resources|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|

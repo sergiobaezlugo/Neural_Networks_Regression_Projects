@@ -24,4 +24,4 @@ Adam optimization was used with a learning_rate = 0.01, batch_size = 1, loss = m
 [Code](https://github.com/sergiobaezlugo/Neural_Networks_Regression_Projects/blob/main/life_expectancy.ipynb)
 
 ### Performance
-The model achieved a mean_squarred_error = 8.187067985534668 and mean_absolute_error = 2.0607926845550537 on the test data (random_seed = 23).
+The model achieved a mean_squarred_error = 8.187067985534668 and mean_absolute_error = 2.0607926845550537 on the test data.
